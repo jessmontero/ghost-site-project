@@ -8,9 +8,36 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 60px;
+}
+
+.grid-3-col-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Pirata One", system-ui;
+}
+
+header {
+  background-image: linear-gradient(rgba(17, 14, 27, 0.5), rgba(17, 14, 27, 1)),
+    url("../Images/ghost-band-2025.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 0;
+  background-position: center;
 }
 
 header h2 {
@@ -47,18 +74,45 @@ header a {
   background: white;
   opacity: 0.7;
   padding: 16px 32px;
-  border-radius: 1px;
+  border-radius: 2px;
   display: inline-block;
   margin-top: 32px;
 }
 
-header {
+footer {
+  color: white;
   background-image: linear-gradient(rgba(17, 14, 27, 0.5), rgba(17, 14, 27, 1)),
-    url("../Images/ghost-band-2025.jpg");
+    url("../Images/ghost-band-live.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  text-align: center;
-  padding: 180px 0;
   background-position: center;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
 }
