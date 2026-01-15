@@ -1,0 +1,48 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #171329;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Pirata One", system-ui;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.7;
+}
+
+header p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+header img {
+  max-width: 350px;
+  opacity: 0.6;
+}
+
+header {
+  background-image: linear-gradient(rgba(39, 32, 68, 0.5), rgba(39, 32, 68, 1)),
+    url("../Images/ghost-band-2025.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 0;
+  background-position: center;
+}
