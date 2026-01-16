@@ -13,8 +13,16 @@ body {
   grid-gap: 60px;
 }
 
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
 .grid-3-col-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
 
 section {
@@ -77,6 +85,35 @@ header a {
   border-radius: 2px;
   display: inline-block;
   margin-top: 32px;
+}
+
+main h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.6;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: white;
+  opacity: 0.7;
+  margin: 0;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  opacity: 0.7;
 }
 
 footer {
