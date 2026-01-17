@@ -37,6 +37,7 @@ body {
   background: #110e1b;
   margin: 30px 0;
   box-shadow: 3px 3px 3px black;
+  border-radius: 2px;
 }
 
 .card-body {
@@ -60,11 +61,13 @@ body {
   background-color: white;
   opacity: 0.7;
   text-decoration: none;
+  border-radius: 2px;
 }
 
 .video {
   width: 100%;
   aspect-ratio: 16 / 9;
+  border-radius: 2px 2px 0 0;
 }
 
 section {
